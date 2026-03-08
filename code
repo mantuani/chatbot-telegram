@@ -239,15 +239,15 @@ def mostrar_contato(call, unidade):
         texto = (
             "📍 *SENAI Sorocaba - Santa Rosália*\n"
             "🏫 Gaspar Ricardo Júnior\n\n"
-            "📌 Praça Roberto Mange, 30 - Santa Rosália - Sorocaba/SP\n\n"
-            "☎ Telefone: (15) 3212-7400\n"
-            "💬 WhatsApp: (15) 3212-7421"
+            "📌 # adress
+            "☎ Telefone: # cellphone number
+            "💬 WhatsApp: # cellphone number
         )
 
         markup.add(
             InlineKeyboardButton(
                 "💬 Abrir WhatsApp",
-                url="https://wa.me/551532127421"
+                url="https://wa.me/xxx" # cellphone number
             )
         )
 
@@ -263,15 +263,15 @@ def mostrar_contato(call, unidade):
         texto = (
             "📍 *SENAI Sorocaba - Santa Cecília*\n"
             "🏫 Luiz Pagliato\n\n"
-            "📌 Av. Itavuvu, 6515 - Jardim Santa Cecília - Sorocaba/SP\n\n"
-            "☎ Telefone: (15) 3321-0500\n"
-            "💬 WhatsApp: (15) 3321-0520"
+            "📌 # adress
+            "☎ Telefone: # cellphone number
+            "💬 WhatsApp: # cellphone number
         )
 
         markup.add(
             InlineKeyboardButton(
                 "💬 Abrir WhatsApp",
-                url="https://wa.me/551533210520"
+                url="https://wa.me/xxx" # cellphone number
             )
         )
 
@@ -411,5 +411,5 @@ def admin_callbacks(call):
         )
 
 
-print("ta potente...")
+print("bot rodando...")
 bot.infinity_polling()
