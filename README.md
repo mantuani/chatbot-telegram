@@ -1,7 +1,7 @@
 # chatbot-telegram
 a simple chatbot, like a digital secretary.
 
-# english version below
+-english version below
 
 Esse projeto é um bot para Telegram que criei para testar automação e integração com a API do Telegram. A ideia é que o bot responda comandos enviados no chat e execute algumas ações automaticamente.
 
@@ -23,7 +23,7 @@ Com o token configurado, basta executar o arquivo principal em Python para inici
 
 Tecnologias usadas:
 
->Python
+>Python,
 >Telegram Bot API
 
 ________________________________________________________________________________________________________________
@@ -47,5 +47,5 @@ Once the token is configured, simply run the main Python file to start the bot.
 
 Technologies used:
 
->Python
+>Python,
 >Telegram Bot API
